@@ -1,0 +1,14 @@
+{
+  "lambdas": {
+    "student": {
+      "asset_path": "mock_lambda/student/index.ts",
+      "is_mock": true
+    },
+    "addStudent": {
+      "asset_path": "mock_lambda/addStudent/index.ts",
+      "is_mock": true
+    }
+  },
+  "mockLambdaLayer": { "asset_path": "mock_lambda_layer" },
+  "stages": ["prd", "dev"]
+}

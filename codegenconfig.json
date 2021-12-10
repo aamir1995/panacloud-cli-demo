@@ -1,0 +1,13 @@
+{
+  "saasType": "API",
+  "api": {
+    "nestedResolver": false,
+    "language": "TypeScript",
+    "cloudprovider": "AWS",
+    "apiName": "myApi",
+    "schemaPath": "./editable_src/graphql/schema/schema.graphql",
+    "apiType": "GraphQL",
+    "database": "Aurora Serverless (Relational)",
+    "rdbmsEngine": "MySQL"
+  }
+}

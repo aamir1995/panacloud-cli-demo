@@ -1,0 +1,6 @@
+mutation addStudent($name: String!){
+    addStudent(name: $name){
+        id
+        name
+    }
+}

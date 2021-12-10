@@ -1,0 +1,13 @@
+type Student {
+  id: String!
+  name: String
+}
+
+type Query {
+  student (id: String): Student
+
+}
+
+type Mutation {
+  addStudent (name: String!): Student!
+}

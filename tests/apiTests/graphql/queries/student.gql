@@ -1,0 +1,6 @@
+query student($id: String){
+    student(id: $id){
+        id
+        name
+    }
+}
